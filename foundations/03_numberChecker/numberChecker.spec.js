@@ -4,7 +4,7 @@ describe('numberChecker', () => {
   test('returns true when number is 1000', () => {
     expect(numberChecker(1000)).toEqual(true);
   });
-  test.skip('returns true when number is 10', () => {
+  test('returns true when number is 10', () => {
     expect(numberChecker(10)).toEqual(true);
   });
   test.skip('returns false when number is 9', () => {
